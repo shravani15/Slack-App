@@ -1,0 +1,26 @@
+{
+  "name": "slaack",
+  "version": "1.0.0",
+  "description": "Chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"nodemon backend/server.js\" \"cd client && cd slaack && npm start\" "
+  },
+  "author": "Meghna Contoor",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "passport": "^0.4.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "sequelize": "^5.8.1",
+    "socket.io": "^2.2.0"
+  }
+}
